@@ -15,7 +15,7 @@ body {
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
     border-radius: 20px; 
-    background-color: lightgrey;
+    background-color: white;
 }
 
 .img-container img {
@@ -75,4 +75,21 @@ button {
 
 .hidden {
     display: none;
+}
+
+@media(min-height: 1100px) {
+
+    .flex-container {
+        display: flex;
+        width: 800px;
+    }
+
+    .img-container {
+        width: 1200px;
+    }
+
+    .img-container img {
+        height: 100%;
+    }
+
 }

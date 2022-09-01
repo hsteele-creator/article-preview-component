@@ -7,6 +7,7 @@ const iconButton = document.querySelector(".icon-btn");
 socials.addEventListener("click", function() {
     socialContainer.classList.remove("hidden");
     author.classList.add("hidden");
+    console.log("clicked");
 })
 
 iconButton.addEventListener("click", function() {
